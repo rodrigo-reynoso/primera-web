@@ -1,0 +1,101 @@
+.tabla{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.tablax4{
+	float: left;
+	width: 25%;
+	margin-top: 20px; 
+}
+.tablaxd{
+	float: left;
+	width: 25%;
+	margin-top: 10px; /* con esto logro que sobre salga */
+
+}
+.caja-precio{
+	border: 1px solid #5c6552; /* borde caja con color */
+	background: #30353c;
+}
+
+.icono-precio{
+	color: #85c34a;
+	padding-top: 20px;
+	font-size: 3em; /* es para cuando sea responsability es cuan tan grande es la m una arriba de otra si se achica la pagina se achica el icono en esa proporcion*/
+	padding-bottom: 10px;
+}
+/* para tomar a este h4 especificamente */
+.caja-precio h4{
+	color: #fff;
+}
+
+/* es optativo poner este hover, mira la diferencia */
+/*.caja-precio:hover{
+	border: 5px solid #85c34a;
+} */
+.precio-1{
+	color: #85c34a;
+	font-size: 50px;
+	font-weight: bold;
+}
+.dolar{
+	font-size: 20px;
+	vertical-align: super; /* lo pone en el margen superior */
+}
+.mes{
+	font-size: 13px;
+	color: #999; /* es un color que se acerca al blanco */
+	vertical-align: text-bottom; /*el texto en el lado inferior*/
+}
+.lista-precios{
+	list-style: none;
+	padding: 20px 0;
+	color: #818670; /* color plomo verde*/
+	padding-bottom: 50px;
+}
+.lista-espacios{
+	padding:  0.25em;
+	font-size: 15px;
+
+}
+.boton-contratar{
+	margin-bottom: 25px;
+}
+.contratar-a{
+	background: #85c34a;
+	text-decoration: none;/* para que se le vayan todas las decoraciones por defecto de la letra a(ancla */
+	color: #fff;
+	text-transform: uppercase; /*todas las letras mayusculas*/
+	font-weight: bold;
+	padding: .5em 1em; /* el padding es el que le da el tamaño a la caja verde, lo puse con em porque queda mejor cuando se achica */
+	letter-spacing: 1px;
+	width: 90%;
+}
+.contratar-a:hover{
+	background: #777;
+}
+/* del plan dos */
+.destacado{
+	background-color: #fff;
+	box-shadow: 0 0 8px rgba(0,0,0,.9);/* 8 es lo ancho de la sombra con transparecia .9 */ 
+	z-index: 500; /* para asegurar que quede en la parte superior */ 
+}
+.destacado h4{
+	color: #30353c;
+	font-size: 30px;
+}
+.destacado .icono-precio{
+	font-size: 4em;
+}
+.destacado .contratar-a{
+	background-color: #30353c;
+}
+.destacado .contratar-a:hover{
+	background: #777;
+}
+/* tome la clase de la estrellita */
+.fa-star{
+	color: #30353c;
+}

@@ -1,0 +1,57 @@
+.red{
+	position: fixed;
+	top: 200px;
+	z-index: 100;/* prioridad fuera la f sobre el banner */
+	left: 0; /* para que este bien pegado */
+}
+/*los identificadores siempre van con un #, es una cajita. a>siempre tiene estilo por defecto*/
+/* a correo no le puse en la a la propiedad transition para ver la diferencia*/
+#facebook a{  
+	background: #3b5998;
+	padding: 10px 20px; /* de arriba y abajo y a los lados el seg */
+	color: #fff;
+	text-decoration: none; /* con esto saca los estilos por defecto */
+	width: 50px;
+	transition: all .4s ease;
+}
+/* hover hace que  cuando pasa haga algo, tmbn se puede personalizar */
+#facebook a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+#youtube a{ 
+	background: #bb0000;
+	padding: 10px 15px; 
+	color: #fff;
+	text-decoration: none; 
+	width: 50px;
+	transition: all .4s ease; /* la transicion no sea de golpe y el ease hace funcion */
+}
+#youtube a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+#twitter a{ 
+	background: #55acee;
+	padding: 10px 15px; /* posiciono el icono */
+	color: #fff;
+	text-decoration: none;
+	width: 50px; 
+	transition: all .4s ease;
+}
+#twitter a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+#correo a{ 
+	background: #e95950;
+	padding: 10px 15px; 
+	color: #fff;
+	text-decoration: none;
+	width: 50px; 
+	 
+}
+#correo a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
